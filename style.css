@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(120deg,#b8a25c, #fda085);
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+header{
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+}
+input{
+    border-radius: 20px;
+}
+input:focus {
+    outline-width: 0;
+}
+.section{
+    min-height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 20px;
+}
+.column {
+	order: 1;
+}
+.column-3 {
+	grid-column: span 3;
+}
+.column-4 {
+	grid-column: span 4;
+}.column-6 {
+	grid-column: span 6;
+}
+.column-12 {
+    grid-column: span 12;
+    text-align: center;
+}
+#computer{
+    color: grey;
+    font-size: 30px;
+}
+#pobjede{
+    color: rgb(0, 150, 50);
+    font-size: 20px;
+    font-weight: bold;
+}
+#rezultat{
+    font-size: 25px;
+}
+#palindrom{
+    color:  rgb(0, 150, 50);
+    font-size: 20px;
+}
+#naden{
+    color:  rgb(0, 150, 50);
+    font-size: 20px;
+}
+.provjeri{
+    margin-left: 20px;
+}
+input, button{
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;
+}
+button{
+    color: #b8a25c;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+button:hover{
+    background:  #b8a25c;
+    color: black;
+}
